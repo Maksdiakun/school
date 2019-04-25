@@ -29,11 +29,7 @@ a{
 	color: #fff;
 }
 
-@media(min-width:1500px) {
-	.container {
-		max-width: 1470px;
-	}
-}
+
 .info-corner{
 	width: 433px;
 	background-image: url(../img/Group2.png);
@@ -266,7 +262,7 @@ margin-bottom: 42px;
 .news{
 	padding-top: 60px;
 }
-.news >	.row {
+.news >	.row:nth-child(2) {
 	padding-bottom: 60px;
 	border-bottom: 1px solid #C4C4C4;
 }
@@ -279,7 +275,7 @@ h2{
 	color: #565656;
 	margin-bottom: 48px;
 }
-h2>div{
+h2 > div{
 	width: 27px;
 	height: 27px;
 	background-color: #5793CE;
@@ -292,7 +288,7 @@ h2>div{
 .big-pic{
 	margin-top: 10px;
 }
-.big-pic >div, .sm-pic .row>div>div{
+.big-pic > a >div, .sm-pic .row > div > a > div{
 	position: relative;
 }
 .signature{
@@ -300,7 +296,7 @@ h2>div{
 	height: 143px;
 	background: rgba(0, 0, 0, 0.4);
 	position: absolute;
-	bottom: 0;
+	bottom: 3px;
 	left: 0;
 	padding-left: 50px;
 	display: flex;
@@ -555,7 +551,7 @@ footer .container> .row{
 	height: 30px;
 	position: absolute;
 	top: 15px;
-	left:-70px;
+	left:-34px;
 }
 
 .news .text-news{
@@ -671,6 +667,9 @@ margin-bottom: 55px;
 }
 .content-row>div{
 	padding-left: 12%;
+}
+.content-row{
+	justify-content: center;
 }
 @media (min-width: 992px) and (max-width: 1352px){
 	.news .info-corner, .pride .info-corner{
@@ -1021,6 +1020,9 @@ margin-bottom: 55px;
 	width: 80%;
 	height: 30px;
 }
+.links {
+	margin-top: 60px;
+}
 }
 
 @media only screen and (max-width: 767.9px) {
@@ -1040,7 +1042,7 @@ margin-bottom: 55px;
 	padding: 10px 50px 12px 50px
 
 }
-.sm-news > div > img{
+.sm-news > a > div > img{
 width: 100%;
 }
 .news .info-btn, .pride .info-btn{
@@ -1109,7 +1111,22 @@ width: 100%;
 
 }
 
+.wrap{
+	width: 100vw;
+	height: auto;
+	padding-top: 100px;
+}
 
-
-
+@media(min-width:1500px) {
+	.container {
+		max-width: 1470px;
+	}
+	.search-icon{
+		left: -70px;
+	}
+}
+.container{
+	padding-top: 30px;
+	padding-bottom: 125px;
+}
 

@@ -1,7 +1,7 @@
 
 
 
-// $(document).ready(function() {
+$(document).ready(function() {
 	
 
   $('.search >img').click( function () {
@@ -57,3 +57,21 @@
   	 $('.type-work span').removeClass('change-color');
   	  $('.container').removeClass('not-active');
   });
+
+$(function() {
+  initStickBar();
+});
+
+
+function initStickBar(){
+  $(".info-corner").stick_in_parent();
+};
+
+});
+
+
+
+
+function initStickBar(){
+  $(".info-corner").stick_in_parent();
+};
