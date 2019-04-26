@@ -5,9 +5,26 @@ $(document).ready(function() {
 	
 
   $('.search >img').click( function () {
-    $('.search-act').toggleClass('search-act-viz');
-
+    $('.pop-up').addClass('search-act-viz');
   });
+
+   $('.close-pop-up').click( function () {
+    $('.pop-up').removeClass('search-act-viz');
+  });
+
+if ($(window).width() <=358.9) {
+    $('.search >img').click( function () {
+    $('.carousel-indicators').hide();
+    });
+     $('.close-pop-up').click( function () {
+    $('.carousel-indicators').show();
+  });
+  } 
+ 
+
+
+
+
    $('.search-icon').click( function () {
     $('.top-search').toggleClass('search-act-viz');
 
