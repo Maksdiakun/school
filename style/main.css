@@ -63,6 +63,10 @@ a{
 	letter-spacing: 0.05em;
 	color: #FFFFFF;
 }
+.info-corner li:hover span{
+	text-decoration: underline;
+	cursor: pointer;
+}
 .info-corner li span{
 	display: block;
 	width: 100%;
@@ -243,21 +247,28 @@ letter-spacing: 0.05em;
 text-transform: uppercase;
 color: #255692;
 margin-bottom: 42px;
+cursor: pointer;
+}
+.close-info:hover{
+	text-decoration: underline;
 }
 
 
 .close-info img{
 	margin-right: 10px;
 }
-
 .info-content li{
+	margin-bottom: 35px;
+	cursor: pointer;
+}
+
+.info-content li a{
 	font-weight: 500;
 	font-size: 22px;
 	line-height: 31px;
 	letter-spacing: 0.05em;
 	vertical-align: top;
 	color: #FFFFFF;
-	margin-bottom: 35px;
 }
 .news{
 	padding-top: 60px;
@@ -370,6 +381,12 @@ h6{
 	color: #FFFFFF;
 	padding: 7px 16px;
 	width: fit-content;
+}
+.text-news a {
+	text-decoration: none;
+}
+.news-btn:hover{
+	font-size: 22px;
 }
 .notise{
 	margin-top: 50px;
@@ -609,6 +626,7 @@ box-sizing: border-box;
 
 .pride-cont >.col-lg-3>div{
 	height: 214px;
+	max-width: 226px;
 
 }
 .pride-cont > div {
@@ -886,7 +904,9 @@ margin-bottom: 55px;
 @media only screen and (max-width: 991.9px) {
  header{
  	background-color: transparent;
- }
+	padding: 0 15px;
+}
+ 
  .search-icon{
  	display: none;
  }
@@ -1054,7 +1074,7 @@ margin-bottom: 55px;
   	display: block;
   	position: absolute;
   	top: 15px;
-    left: 50px;
+    left: 15px;
   	z-index: 7777;
   	border-radius: 50%;
   	background-color: #396CAA;
@@ -1205,9 +1225,7 @@ width: 100%;
 .info-btn{
 	left: 15px;
 }
-header{
-	padding: 0 15px;
-}
+
 .news-open-wraper{
 	height: 300px;
 }
