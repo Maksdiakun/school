@@ -761,6 +761,7 @@ margin-bottom: 55px;
     border: 1px solid #D9D9D9;
     box-sizing: border-box;
     border-radius: 60px;
+    outline:none;
 }
 .pop-up button{
 	width: 40%;
@@ -769,6 +770,7 @@ margin-bottom: 55px;
 	color: #396CAA;
 	margin-top: 25px;
 	border-radius: 60px;
+	cursor: pointer;
 }
 
 .pop-up  img{
@@ -1152,6 +1154,7 @@ margin-bottom: 55px;
 .search-menu input {
 	width: 80%;
 	height: 30px;
+	outline:none;
 }
 .links {
 	margin-top: 60px;
