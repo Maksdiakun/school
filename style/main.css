@@ -28,6 +28,13 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
+input:focus{
+	outline: none;
+}
+button:focus{
+	outline: none;
+
+}
 
 
 .info-corner{
@@ -173,10 +180,12 @@ header{
 }
 .search{
 	padding-bottom: 30px;
+	cursor: pointer;
 }
 .fb{
 	padding-top: 30px;
 	border-top: 1px solid #FFFFFF;
+	cursor: pointer;
 }
 
 .slide-2{
@@ -584,6 +593,7 @@ footer .container> .row{
 	position: absolute;
 	top: 15px;
 	left:-34px;
+	cursor: pointer;
 }
 
 .news .text-news{
@@ -702,6 +712,7 @@ margin-bottom: 55px;
 
 .info-btn{
 	display: none;
+	cursor: pointer;
 }
 
 
