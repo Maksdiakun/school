@@ -568,9 +568,14 @@ footer .container> .row{
 	position: fixed;
 	top: 0px;
 	left: 0px;
+	max-height: 100vh;
+	overflow-y: scroll;
 }
 .info-open{
 	position: fixed;
+	max-height: 100vh;
+	overflow-y: scroll;
+
 }
 
 .pride > .container ,{
